@@ -8,10 +8,19 @@
 
 html, body {
     width: 100vw;
-    height: 100vh;
+    height: 99vh;
 }
-
+body{
+    background: url(../imagens/fundo-madeira.jpg) top center no-repeat fixed;
+    background-size: cover;
+    position: relative;
+}
 section#telefone{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
     height: 627px;
     width: 311px;
     background: url(../imagens/frame-iphone.png) no-repeat;
